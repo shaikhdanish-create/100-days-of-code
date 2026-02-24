@@ -1,17 +1,37 @@
-# 100-days-of-code
-1 problem daily
+"""
+🎮 Number Guessing Game (Python)
 
-print("Welcome to the tip calculator!")
+📌 About Project:
+This is a simple Python mini project.
+The program generates a random number between 1 and 10,
+and the user tries to guess the correct number.
 
-bill = float(input("What was the total bill? $"))
-tip = int(input("What percentage tip would you like to give? 10 12 15 "))
-people = int(input("How many people to split the bill? "))
+If the guess is correct, the user wins.
+If the guess is wrong, the correct number is displayed.
 
-tip_as_percent = tip / 100
-total_tip_amount = bill * tip_as_percent
-total_bill = bill + total_tip_amount
-bill_per_person = total_bill / people
-final_amount = round(bill_per_person, 2)
+🛠️ Concepts Used:
+- random module
+- user input
+- type casting
+- if-else condition
 
-print(f"Each person should pay: ${final_amount}")
+🚀 Future Improvements:
+- Add multiple attempts
+- Add score system
+- Add difficulty levels
+"""
 
+# Import random module
+import random
+
+# Generate random number between 1 and 10
+number = random.randint(1, 10)
+
+# Take user input
+guess = int(input("Guess a number between 1 and 10: "))
+
+# Check condition
+if guess == number:
+    print("Correct! You win!")
+else:
+    print("Wrong! The number was", number)
