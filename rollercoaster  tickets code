@@ -1,15 +1,24 @@
+# Print welcome message
 print("welcome to rollercoaster ride")
+
+# Ask user for height and convert it to integer
 height = int(input("what is your height in cm? "))
 
+# Check if height is enough to ride
 if height >= 120:
     print("you can ride rollercoaster")
+    
+    # Ask for age if height condition is true
     age = int(input("what is your age? "))
 
+    # Decide ticket price based on age
     if age <= 12:
         print("please pay $5.")
     elif age <= 18:
         print("please pay $7.")
     else:
         print("please pay $12.")
+
+# If height is less than 120 cm
 else:
     print("you can't ride rollercoaster")
