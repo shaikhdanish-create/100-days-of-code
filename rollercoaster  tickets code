@@ -22,3 +22,5 @@ if height >= 120:
 # If height is less than 120 cm
 else:
     print("you can't ride rollercoaster")
+
+# this program calculating rollercoaster ticket bill 
