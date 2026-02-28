@@ -4,7 +4,7 @@ print("welcome to rollercoaster ride")
 # Ask user for height and convert it to integer
 height = int(input("what is your height in cm? "))
 
-# Check if height is enough to ride
+# check height is above on 120 cm
 if height >= 120:
     print("you can ride rollercoaster")
     
