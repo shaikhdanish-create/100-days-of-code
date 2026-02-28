@@ -26,4 +26,5 @@ if pepperoni == "y":
 # Extra cheese bill
 if extra_cheese == "y":
     bill += 1
+
 print(f"Your final bill is: ${bill}.")
