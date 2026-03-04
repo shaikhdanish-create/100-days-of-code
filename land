@@ -1,0 +1,12 @@
+travel_log = {
+    "india": {   # colon added here
+        "cities_visited": ["mumbai", "nagpur", "pune"],
+        "total_visits": 12
+    },
+    "pakistan": {   # colon added here
+        "cities_visited": ["karachi", "lahore", "sillod"],
+        "total_visits": 5   # also corrected spelling to match india
+    },
+}
+
+print(travel_log["india"]["cities_visited"][2])
