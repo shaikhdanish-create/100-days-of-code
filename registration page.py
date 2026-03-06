@@ -1,3 +1,4 @@
+#create function
 def format_name(f_name, l_name):
     if not f_name or not l_name:
         return 
