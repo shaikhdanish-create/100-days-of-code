@@ -1,3 +1,4 @@
+# create empty list
 bids = {}
 continue_bidding = True
 
