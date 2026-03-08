@@ -17,3 +17,5 @@ if guess == number:
     print("You win!")
 else:
     print("Wrong! Number was", number)
+
+    #first we build our own logic
