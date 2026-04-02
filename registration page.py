@@ -1,7 +1,5 @@
 #create function
 def format_name(f_name, l_name):
-    if not f_name or not l_name:
-        return 
     
     format_f_name = f_name.title()
     format_l_name = l_name.title()  
