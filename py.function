@@ -1,0 +1,13 @@
+class laptop:
+    def __init__(self, ram, storage):
+        self.ram = ram 
+        self.storage = storage
+        
+    def get_info(self):
+        print(f"laptop has a {self.ram} ram & {self.storage} storage")
+        
+stu1 = laptop("16gb", "512gb")  
+stu2 = laptop("12gb", "256gm")
+stu1.get_info()
+stu2.get_info()
+
