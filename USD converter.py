@@ -8,7 +8,7 @@ def converter(usd_val):
     print(usd_val, "USD =", inr_val, "INR")   
   
 
-# Take input from user (convert input string to float number)
+# Take input from user (convert input string to float number)  
 usd = float(input("Enter amount in USD: "))
 
 # Call the function and pass user input
