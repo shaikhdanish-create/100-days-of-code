@@ -4,7 +4,7 @@ def converter(usd_val):
     # Multiply USD value by 83 to convert into INR
     inr_val = usd_val * 83  
     
-    # Print the result in a readable format
+    # Print the result in a readable format  
     print(usd_val, "USD =", inr_val, "INR")   
   
 
