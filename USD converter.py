@@ -5,7 +5,7 @@ def converter(usd_val):
     inr_val = usd_val * 83  
     
     # Print the result in a readable format
-    print(usd_val, "USD =", inr_val, "INR") 
+    print(usd_val, "USD =", inr_val, "INR")   
   
 
 # Take input from user (convert input string to float number)
