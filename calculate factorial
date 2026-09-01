@@ -1,4 +1,4 @@
-#in functions i puted this fact logic 
+#in functions i puted this fact logic     mmmmm
 def calc_fact(n):    
     fact = 1    
     for i in range(1, n+1):
