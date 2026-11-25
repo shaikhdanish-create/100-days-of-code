@@ -1,6 +1,6 @@
 # Function to convert USD to INR
 def converter(usd_val):         
-    
+      
     # Multiply USD value by 83 to convert into INR  
     inr_val = usd_val * 83    
     
