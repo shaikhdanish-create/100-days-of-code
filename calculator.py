@@ -22,7 +22,7 @@ operations = {
 def calculator():
     should_accumulate = True
     num1 = float(input("What is the first number?: "))
-
+  
     while should_accumulate:
         for symbol in operations:
             print(symbol)
